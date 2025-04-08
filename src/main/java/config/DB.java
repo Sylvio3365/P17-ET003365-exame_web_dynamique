@@ -7,15 +7,15 @@ import java.util.List;
 import java.util.Map;
 
 public class DB {
-    // public static final String DB_URL = "jdbc:mysql://172.80.237.53:3306/db_s2_ETU003365";
-    // public static final String DB_USER = "ETU003365";
-    // public static final String DB_PASSWORD = "FnVGonkK";
-    // public static final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
-
-    public static final String DB_URL = "jdbc:mysql://localhost:3306/prepa";
-    public static final String DB_USER = "root";
-    public static final String DB_PASSWORD = "";
+    public static final String DB_URL = "jdbc:mysql://172.80.237.53:3306/db_s2_ETU003365";
+    public static final String DB_USER = "ETU003365";
+    public static final String DB_PASSWORD = "FnVGonkK";
     public static final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
+
+    // public static final String DB_URL = "jdbc:mysql://localhost:3306/prepa";
+    // public static final String DB_USER = "root";
+    // public static final String DB_PASSWORD = "";
+    // public static final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
 
     public static Connection getConn() throws Exception {
         try {
